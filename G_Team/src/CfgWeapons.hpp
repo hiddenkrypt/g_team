@@ -19,6 +19,7 @@ class CfgWeapons
         mass = 50;
     };
   };
-  #include "CfgWeapons\D_Rank_Weapons.hpp" //weapons for D rank infantry
+  #include "CfgWeapons\D_Rank_Weapons.hpp"
+  #include "CfgWeapons\C_Rank_Weapons.hpp"
 
 };
