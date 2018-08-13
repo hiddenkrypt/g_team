@@ -49,3 +49,50 @@ class Gent_Soldier: I_G_Soldier_F {
     init = "(_this select 0) setVariable ['BIS_enableRandomization', false];"
   }
 };
+
+/*Gent Officer inherets from base Gent soldier
+They get a different name/role, and get a boonie hat*/
+class Gent_Officer: Gent_Soldier {
+  displayName = "Gent Officer";
+  role = "Gent Officer (tylah)";
+  editorPreview = "\G_Team\img\ui\editor_icons\icon_gent_officer_CO.paa"
+  linkedItems[] = {
+    "G_WirelessEarpiece_F",
+    "H_Booniehat_tan",
+    "ItemMap",
+    "ItemCompass",
+    "ItemWatch",
+    "ItemRadio"
+  };
+  respawnLinkedItems[] = {
+    "G_WirelessEarpiece_F",
+    "H_Booniehat_tan",
+    "ItemMap",
+    "ItemCompass",
+    "ItemWatch",
+    "ItemRadio"
+  };
+};
+/*Gent Commander inherets from base Gent soldier
+They get a different name/role, and get aviators / beret*/
+class Gent_Commander: Gent_Soldier {
+  displayName = "Gent Command";
+  role = "Gent Command (Rav-T)";
+  editorPreview = "\G_Team\img\ui\editor_icons\icon_gent_command_CO.paa"
+  linkedItems[] = {
+    "H_beret_blk",
+    "G_Aviator",
+    "ItemMap",
+    "ItemCompass",
+    "ItemWatch",
+    "ItemRadio"
+  };
+  respawnLinkedItems[] = {
+    "H_beret_blk",
+    "G_Aviator",
+    "ItemMap",
+    "ItemCompass",
+    "ItemWatch",
+    "ItemRadio"
+  };
+};
