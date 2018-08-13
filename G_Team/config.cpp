@@ -5,9 +5,23 @@ class CfgPatches
     name = "G-Team Addon";
     author = "Rav-T";
     units[] = {
-      "Gent_Soldier"
+      "Gent_Chopper_Rust",
+      "Gent_Command_Car",
+      "Gent_Party_Van",
+      "Gent_Soldier",
+      "Gent_Officer",
+      "Gent_Commander",
+      "Gent_AWP_D_Rank",
+      "Gent_HUGE_D_Rank",
+      "Gent_Medic_D_Rank",
+      "Gent_Rifle_D_Rank",
+      "Gent_Boom_D_Rank",
+      "Gent_Mule_D_Rank"
     };
-    weapons[] = {};
+    weapons[] = {
+      "Gent_AWP_DMS",
+      "Gent_Uniform"
+    };
     requiredVersion = 0.1;
     requiredAddons[] = {
       "CUP_AirVehicles_UH60",
