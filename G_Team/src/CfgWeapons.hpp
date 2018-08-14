@@ -21,5 +21,6 @@ class CfgWeapons
   };
   #include "CfgWeapons\D_Rank_Weapons.hpp"
   #include "CfgWeapons\C_Rank_Weapons.hpp"
+  #include "CfgWeapons\B_Rank_Weapons.hpp"
 
 };
