@@ -16,11 +16,32 @@ class CfgPatches
       "Gent_Medic_D_Rank",
       "Gent_Rifle_D_Rank",
       "Gent_Boom_D_Rank",
-      "Gent_Mule_D_Rank"
+      "Gent_Mule_D_Rank",
+      "Gent_AWP_C_Rank",
+      "Gent_HUGE_C_Rank",
+      "Gent_Medic_C_Rank",
+      "Gent_Rifle_C_Rank",
+      "Gent_Boom_C_Rank",
+      "Gent_Mule_C_Rank",
+      "Gent_AWP_B_Rank",
+      "Gent_HUGE_B_Rank",
+      "Gent_Medic_B_Rank",
+      "Gent_Rifle_B_Rank",
+      "Gent_Boom_B_Rank",
+      "Gent_Mule_B_Rank"
     };
     weapons[] = {
       "Gent_AWP_DMS",
-      "Gent_Uniform"
+      "Gent_Uniform",
+      "Gent_AK12_Aco",
+      "Gent_RPK_Aco",
+      "Gent_LRR_DMS",
+      "Gent_Silent_Glock",
+      "Gent_Glock_Works",
+      "Gent_Glock_MRD",
+      "Gent_HUGE_Aco",
+      "Gent_L85_Aco",
+      "Gent_AWP_Works"      
     };
     requiredVersion = 0.1;
     requiredAddons[] = {
