@@ -1,6 +1,5 @@
 
 
-class I_G_Soldier_F;
 //Basic gent soldier inherets from AAF Rifleman
 class Gent_Soldier: I_G_Soldier_F {
   GENT_UNIT

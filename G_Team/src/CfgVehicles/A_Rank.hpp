@@ -1,20 +1,22 @@
-#include "B_Rank_Packs.hpp"
+#include "A_Rank_Packs.hpp"
 
-class Gent_AWP_B_Rank: Gent_Soldier {
+class Gent_AWP_A_Rank: Gent_Soldier {
   scopeCurator = 2;
-  editorSubcategory = "GentInfantry_B_Rank"; // editor list category (cfgcategories)
-  role = "Gent AWP whore (B Rank)"; //role displayed in MP as a join slot
-  displayName = "Gent AWP whore (B Rank)";
+  editorSubcategory = "GentInfantry_A_Rank"; // editor list category (cfgcategories)
+  role = "Gent AWP whore (A Rank)"; //role displayed in MP as a join slot
+  displayName = "Gent AWP whore (A Rank)";
+  //model = "\A3\Characters_F_Bootcamp\Guerrilla\ig_guerrilla_6_1.p3d";
+  uniformClass = "U_B_T_FullGhillie_tna_F";
   //equipment
-  backpack = "Gent_AWP_B_Pack";
+  backpack = "Gent_AWP_A_Pack";
   weapons[] = {
-    "Gent_LRR_DMS",
+    "Gent_LRR_AMS",
     "Gent_Glock_Works",
     "Throw",
     "Put"
   };
   respawnWeapons[] = {
-    "Gent_LRR_DMS",
+    "Gent_LRR_AMS",
     "Gent_Glock_Works",
     "Throw",
     "Put"
@@ -30,13 +32,13 @@ class Gent_AWP_B_Rank: Gent_Soldier {
     "SmokeShell"
   };
   Items[] = {
-    mag_2(FirstAidKit)
+    mag_2("FirstAidKit")
   };
   RespawnItems[] = {
-    mag_2(FirstAidKit)
+    mag_2("FirstAidKit")
   };
   linkedItems[] = {
-    "V_LegStrapBag_black_F",
+    "CUP_V_PMC_CIRAS_Black_Empty",
     "Binocular",
     "ItemWatch",
     "ItemRadio",
@@ -46,7 +48,7 @@ class Gent_AWP_B_Rank: Gent_Soldier {
     "H_HelmetB_camo"
   };
   respawnLinkedItems[] = {
-    "V_LegStrapBag_black_F",
+    "V_PlateCarrier2_blk",
     "Binocular",
     "ItemWatch",
     "ItemRadio",
@@ -58,35 +60,37 @@ class Gent_AWP_B_Rank: Gent_Soldier {
 };
 
 
-class Gent_HUGE_B_Rank: Gent_Soldier {
+class Gent_HUGE_A_Rank: Gent_Soldier {
   scopeCurator = 2;
-  editorSubcategory = "GentInfantry_B_Rank"; // editor list category (cfgcategories)
-  role = "Gent H.U.G.E. Gunner (B Rank)"; //role displayed in MP as a join slot
-  displayName = "Gent H.U.G.E. (B Rank)";
+  editorSubcategory = "GentInfantry_A_Rank"; // editor list category (cfgcategories)
+  role = "Gent H.U.G.E. Gunner (A Rank)"; //role displayed in MP as a join slot
+  displayName = "Gent H.U.G.E. (A Rank)";
   //equipment
-  backpack = "Gent_HUGE_B_Pack";
+  backpack = "Gent_HUGE_A_Pack";
   weapons[] = {
-    "CUP_arifle_RPK74",
+    "Gent_RPK_Aco",
     "Gent_Glock_MRD",
     "Throw",
     "Put"
   };
   respawnWeapons[] = {
-    "CUP_arifle_RPK74",
+    "Gent_RPK_Aco",
     "Gent_Glock_MRD",
     "Throw",
     "Put"
   };
   magazines[] = {
-    mag_3("CUP_17Rnd_9x19_glock17"),
+    mag_4("CUP_17Rnd_9x19_glock17"),
     mag_3("CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M"),
     mag_2("SmokeShell"),
+    "SmokeShellRed",
     "HandGrenade"
   };
   respawnMagazines[] = {
-    mag_3("CUP_17Rnd_9x19_glock17"),
+    mag_4("CUP_17Rnd_9x19_glock17"),
     mag_3("CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M"),
     mag_2("SmokeShell"),
+    "SmokeShellRed",
     "HandGrenade"
   };
   items[] = {
@@ -96,7 +100,7 @@ class Gent_HUGE_B_Rank: Gent_Soldier {
     mag_2("FirstAidKit")
   };
   linkedItems[] = {
-    "V_PlateCarrier1_blk",
+    "V_PlateCarrier2_blk",
     "ItemWatch",
     "ItemRadio",
     "ItemMap",
@@ -105,7 +109,7 @@ class Gent_HUGE_B_Rank: Gent_Soldier {
     "CUP_H_USArmy_Helmet_ECH1_Black"
   };
   respawnLinkedItems[] = {
-    "V_PlateCarrier1_blk",
+    "V_PlateCarrier2_blk",
     "ItemWatch",
     "ItemRadio",
     "ItemMap",
@@ -116,22 +120,22 @@ class Gent_HUGE_B_Rank: Gent_Soldier {
 };
 
 
-class Gent_Medic_B_Rank: Gent_Soldier {
+class Gent_Medic_A_Rank: Gent_Soldier {
   scopeCurator = 2;
-  editorSubcategory = "GentInfantry_B_Rank";
-  role = "Gent Medic (B Rank)";
-  displayName = "Gent Medic (B Rank)";
+  editorSubcategory = "GentInfantry_A_Rank";
+  role = "Gent Medic (A Rank)";
+  displayName = "Gent Medic (A Rank)";
   attendant = 1;
   //equipment
-  backpack = "Gent_Medic_B_Pack";
+  backpack = "Gent_Medic_A_Pack";
   weapons[] = {
-    "arifle_AK12_F",
+    "Gent_AK12_Aco",
     "Gent_Glock_MRD",
     "Throw",
     "Put"
   };
   respawnWeapons[] = {
-    "arifle_AK12_F",
+    "Gent_AK12_Aco",
     "Gent_Glock_MRD",
     "Throw",
     "Put"
@@ -157,7 +161,7 @@ class Gent_Medic_B_Rank: Gent_Soldier {
   respawnItems[] = {
   };
   linkedItems[] = {
-    "V_PlateCarrier1_blk",
+    "V_PlateCarrier2_blk",
     "ItemWatch",
     "ItemRadio",
     "ItemMap",
@@ -166,7 +170,7 @@ class Gent_Medic_B_Rank: Gent_Soldier {
     "CUP_H_USArmy_Helmet_ECH1_Black"
   };
   respawnLinkedItems[] = {
-    "V_PlateCarrier1_blk",
+    "V_PlateCarrier2_blk",
     "ItemWatch",
     "ItemRadio",
     "ItemMap",
@@ -177,20 +181,20 @@ class Gent_Medic_B_Rank: Gent_Soldier {
 };
 
 
-class Gent_Rifle_B_Rank: Gent_Soldier {
+class Gent_Rifle_A_Rank: Gent_Soldier {
   scopeCurator = 2;
-  editorSubcategory = "GentInfantry_B_Rank";
-  role = "Gent Rifle (B Rank)";
-  displayName = "Gent Rifle (B Rank)";
-  backpack = "Gent_Rifle_B_Pack";
+  editorSubcategory = "GentInfantry_A_Rank";
+  role = "Gent Rifle (A Rank)";
+  displayName = "Gent Rifle (A Rank)";
+  backpack = "Gent_Rifle_A_Pack";
   weapons[] = {
-    "Gent_AK12_Aco",
+    "Gent_AK12_ARCO",
     "Gent_Glock_MRD",
     "Throw",
     "Put"
   };
   respawnWeapons[] = {
-    "Gent_AK12_Aco",
+    "Gent_AK12_ARCO",
     "Gent_Glock_MRD",
     "Throw",
     "Put"
@@ -212,7 +216,7 @@ class Gent_Rifle_B_Rank: Gent_Soldier {
   respawnItems[] = {
   };
   linkedItems[] = {
-    "V_PlateCarrier1_blk",
+    "V_PlateCarrier2_blk",
     "ItemWatch",
     "ItemRadio",
     "ItemMap",
@@ -221,7 +225,7 @@ class Gent_Rifle_B_Rank: Gent_Soldier {
     "CUP_H_USArmy_Helmet_ECH1_Black"
   };
   respawnLinkedItems[] = {
-    "V_PlateCarrier1_blk",
+    "V_PlateCarrier2_blk",
     "ItemWatch",
     "ItemRadio",
     "ItemMap",
@@ -232,32 +236,32 @@ class Gent_Rifle_B_Rank: Gent_Soldier {
 };
 
 
-class Gent_Mule_B_Rank: Gent_Soldier {
+class Gent_Mule_A_Rank: Gent_Soldier {
   scopeCurator = 2;
-  editorSubcategory = "GentInfantry_B_Rank"; // editor list category (cfgcategories)
-  role = "Gent Mule (B Rank)"; //role displayed in MP as a join slot
-  displayName = "Gent Mule (B Rank)";
+  editorSubcategory = "GentInfantry_A_Rank"; // editor list category (cfgcategories)
+  role = "Gent Mule (A Rank)"; //role displayed in MP as a join slot
+  displayName = "Gent Mule (A Rank)";
   //equipment
-  backpack = "Gent_Mule_B_Pack";
+  backpack = "Gent_Mule_A_Pack";
   weapons[] = {
-    "arifle_AK12_F",
+    "Gent_AK12_Aco",
     "Gent_Glock_MRD",
     "Throw",
     "Put"
   };
   respawnWeapons[] = {
-    "arifle_AK12_F",
+    "Gent_AK12_Aco",
     "Gent_Glock_MRD",
     "Throw",
     "Put"
   };
   magazines[] = {
     mag_3("CUP_17Rnd_9x19_glock17"),
-    mag_4("30Rnd_762x39_Mag_F")
+    mag_7("30Rnd_762x39_Mag_F")
   };
   respawnMagazines[] = {
     mag_3("CUP_17Rnd_9x19_glock17"),
-    mag_4("30Rnd_762x39_Mag_F")
+    mag_7("30Rnd_762x39_Mag_F")
   };
   items[] = {
     mag_2("FirstAidKit")
@@ -266,7 +270,7 @@ class Gent_Mule_B_Rank: Gent_Soldier {
     mag_2("FirstAidKit")
   };
   linkedItems[] = {
-    "V_PlateCarrier1_blk",
+    "V_PlateCarrier2_blk",
     "ItemWatch",
     "ItemRadio",
     "ItemMap",
@@ -275,7 +279,7 @@ class Gent_Mule_B_Rank: Gent_Soldier {
     "CUP_H_USArmy_Helmet_ECH1_Black"
   };
   respawnLinkedItems[] = {
-    "V_PlateCarrier1_blk",
+    "V_PlateCarrier2_blk",
     "ItemWatch",
     "ItemRadio",
     "ItemMap",
@@ -286,37 +290,37 @@ class Gent_Mule_B_Rank: Gent_Soldier {
 };
 
 
-class Gent_Boom_B_Rank: Gent_Soldier {
+class Gent_Boom_A_Rank: Gent_Soldier {
   scopeCurator = 2;
-  editorSubcategory = "GentInfantry_B_Rank";
-  role = "Gent Explosions! (B Rank)";
-  displayName = "Gent Explosions! (B Rank)";
+  editorSubcategory = "GentInfantry_A_Rank";
+  role = "Gent Explosions! (A Rank)";
+  displayName = "Gent Explosions! (A Rank)";
   //equipment
-  backpack = "Gent_Boom_B_Pack";
+  backpack = "Gent_Boom_A_Pack";
   weapons[] = {
-    "arifle_AK12_F",
+    "Gent_AK12_Aco",
     "Gent_Glock_MRD",
-    "CUP_launch_M72A6_Special",
+    "launch_I_Titan_short_F",
     "Throw",
     "Put"
   };
   respawnWeapons[] = {
-    "arifle_AK12_F",
+    "Gent_AK12_Aco",
     "Gent_Glock_MRD",
-    "CUP_launch_M72A6_Special",
+    "launch_I_Titan_short_F",
     "Throw",
     "Put"
   };
   magazines[] = {
-    "CUP_M72A6_M",
+    "Titan_AT",
     mag_3("CUP_17Rnd_9x19_glock17"),
     mag_7("30Rnd_762x39_Mag_F"),
     mag_1("HandGrenade")
   };
   respawnMagazines[] = {
-    "CUP_M72A6_M",
+    "Titan_AT",
     mag_3("CUP_17Rnd_9x19_glock17"),
-    mag_7("30Rnd_762x39_Mag_F"),
+    mag_5("30Rnd_762x39_Mag_F"),
     mag_1("HandGrenade")
   };
   items[] = {
@@ -326,7 +330,7 @@ class Gent_Boom_B_Rank: Gent_Soldier {
     mag_2("FirstAidKit")
   };
   linkedItems[] = {
-    "V_PlateCarrier1_blk",
+    "V_PlateCarrier2_blk",
     "ItemWatch",
     "ItemRadio",
     "ItemMap",
@@ -335,7 +339,7 @@ class Gent_Boom_B_Rank: Gent_Soldier {
     "CUP_H_USArmy_Helmet_ECH1_Black"
   };
   respawnLinkedItems[] = {
-    "V_PlateCarrier1_blk",
+    "V_PlateCarrier2_blk",
     "ItemWatch",
     "ItemRadio",
     "ItemMap",

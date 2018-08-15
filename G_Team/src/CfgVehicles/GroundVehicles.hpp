@@ -1,5 +1,3 @@
-class CUP_O_UAZ_Open_CHDKZ;
-class CUP_O_GAZ_Vodnik_PK_RU;
 
 
 //just a UAZ with a different name in editor

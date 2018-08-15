@@ -19,8 +19,16 @@ class CfgWeapons
         mass = 50;
     };
   };
+  class CUP_hgun_Glock17;
+  class CUP_lmg_m249_pip2;
+  class CUP_arifle_L85A2_G;
+  class CUP_srifle_AWM_wdl;
+  class arifle_AK12_F;
+  class CUP_arifle_RPK74;
+  class srifle_LRR_F;
   #include "CfgWeapons\D_Rank_Weapons.hpp"
   #include "CfgWeapons\C_Rank_Weapons.hpp"
   #include "CfgWeapons\B_Rank_Weapons.hpp"
+  #include "CfgWeapons\A_Rank_Weapons.hpp"
 
 };

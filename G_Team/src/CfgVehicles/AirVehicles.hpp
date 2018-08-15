@@ -1,6 +1,5 @@
 
 
-class CUP_B_UH60M_Unarmed_FFV_US;
 //UH60 with FFV, applied custom rusty skin, further reskins are planned.
 class Gent_Chopper_Rust: CUP_B_UH60M_Unarmed_FFV_US {
   GENT_VEHICLE

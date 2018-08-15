@@ -17,7 +17,6 @@ class Gent_AWP_Works : CUP_srifle_AWM_wdl {
   };
 };
 
-class CUP_arifle_L85A2_G;
 class Gent_L85_Aco : CUP_arifle_L85A2_G {
   class LinkedItems {
     class LinkedItemsOptic {
@@ -27,7 +26,6 @@ class Gent_L85_Aco : CUP_arifle_L85A2_G {
   };
 };
 
-class CUP_lmg_m249_pip2;
 class Gent_HUGE_Aco : CUP_lmg_m249_pip2 {
   class LinkedItems {
     class LinkedItemsOptic {
@@ -37,7 +35,6 @@ class Gent_HUGE_Aco : CUP_lmg_m249_pip2 {
   };
 };
 
-class CUP_hgun_Glock17;
 class Gent_Silent_Glock : CUP_hgun_Glock17 {
   class LinkedItems {
     class LinkedItemsMuzzle  {

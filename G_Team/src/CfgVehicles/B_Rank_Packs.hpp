@@ -1,6 +1,4 @@
 
-class B_Bergen_mcamo_F;
-class B_Bergen_tna_F;
 
 class Gent_AWP_B_Pack : B_Carryall_oli {
   scope = 1;

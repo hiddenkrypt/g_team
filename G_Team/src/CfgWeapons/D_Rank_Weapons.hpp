@@ -1,4 +1,4 @@
-class CUP_srifle_AWM_wdl;
+
 class Gent_AWP_DMS : CUP_srifle_AWM_wdl {
   class LinkedItems {
     class LinkedItemsOptic {

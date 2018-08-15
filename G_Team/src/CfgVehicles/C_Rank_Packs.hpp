@@ -1,6 +1,4 @@
 
-class B_Carryall_oli;
-class B_Carryall_oucamo;
 
 class Gent_AWP_C_Pack : B_Messenger_Black_F {
   scope = 1;

@@ -147,7 +147,7 @@ class Gent_Medic_D_Rank: Gent_Soldier {
   respawnItems[] = {
   };
   linkedItems[] = {
-    "V_PlateCarrier1_rgr_noflag_F",
+    "V_TacVest_oli",
     "ItemWatch",
     "ItemRadio",
     "ItemMap",
@@ -156,7 +156,7 @@ class Gent_Medic_D_Rank: Gent_Soldier {
     "H_Hat_Camo"
   };
   respawnLinkedItems[] = {
-    "V_PlateCarrier1_rgr_noflag_F",
+    "V_TacVest_oli",
     "ItemWatch",
     "ItemRadio",
     "ItemMap",

@@ -1,9 +1,4 @@
 
-class B_Messenger_Black_F;
-class B_AssaultPack_rgr;
-class CUP_B_GER_Medic_FLecktarn;
-class B_LegStrapBag_black_F;
-class B_FieldPack_khk;
 
 class Gent_AWP_D_Pack : B_Messenger_Black_F{
   scope = 1;
