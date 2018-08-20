@@ -34,7 +34,13 @@ class CfgPatches
       "Gent_Medic_A_Rank",
       "Gent_Rifle_A_Rank",
       "Gent_Boom_A_Rank",
-      "Gent_Mule_A_Rank"
+      "Gent_Mule_A_Rank",
+      "Gent_AWP_S_Rank",
+      "Gent_HUGE_S_Rank",
+      "Gent_Medic_S_Rank",
+      "Gent_Rifle_S_Rank",
+      "Gent_Boom_S_Rank",
+      "Gent_Mule_S_Rank"
     };
     weapons[] = {
       "Gent_AWP_DMS",

@@ -26,9 +26,15 @@ class CfgWeapons
   class arifle_AK12_F;
   class CUP_arifle_RPK74;
   class srifle_LRR_F;
+  class MMG_02_black_F;
+  class CUP_arifle_Mk17_STD_black;
+  class CUP_arifle_Mk17_CQC_SFG_black;
+  class CUP_srifle_M107_Base;
+
   #include "CfgWeapons\D_Rank_Weapons.hpp"
   #include "CfgWeapons\C_Rank_Weapons.hpp"
   #include "CfgWeapons\B_Rank_Weapons.hpp"
   #include "CfgWeapons\A_Rank_Weapons.hpp"
+  #include "CfgWeapons\S_Rank_Weapons.hpp"
 
 };
