@@ -11,7 +11,7 @@ class CfgWeapons
   class Gent_Uniform: Uniform_Base {
     scope = 2;
     picture = "\G_Team\img\ui\editor_icons\icon_gent_uniform_CO.paa"
-    displayName = "Gent TEST Uniform";
+    displayName = "G-Team Uniform";
     class ItemInfo : UniformItem {
         uniformModel = "-";
         uniformClass = "Gent_Soldier";
