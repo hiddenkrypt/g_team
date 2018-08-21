@@ -4,7 +4,7 @@ class Gent_AWP_B_Rank: Gent_Soldier {
   scopeCurator = 2;
   editorSubcategory = "GentInfantry_B_Rank"; // editor list category (cfgcategories)
   role = "Gent AWP whore (B Rank)"; //role displayed in MP as a join slot
-  displayName = "Gent AWP whore (B Rank)";
+  displayName = "<B Rank> Gent AWP whore";
   //equipment
   backpack = "Gent_AWP_B_Pack";
   weapons[] = {
@@ -62,7 +62,7 @@ class Gent_HUGE_B_Rank: Gent_Soldier {
   scopeCurator = 2;
   editorSubcategory = "GentInfantry_B_Rank"; // editor list category (cfgcategories)
   role = "Gent H.U.G.E. Gunner (B Rank)"; //role displayed in MP as a join slot
-  displayName = "Gent H.U.G.E. (B Rank)";
+  displayName = "<B Rank> Gent H.U.G.E.";
   //equipment
   backpack = "Gent_HUGE_B_Pack";
   weapons[] = {
@@ -120,7 +120,7 @@ class Gent_Medic_B_Rank: Gent_Soldier {
   scopeCurator = 2;
   editorSubcategory = "GentInfantry_B_Rank";
   role = "Gent Medic (B Rank)";
-  displayName = "Gent Medic (B Rank)";
+  displayName = "<B Rank> Gent Medic";
   attendant = 1;
   //equipment
   backpack = "Gent_Medic_B_Pack";
@@ -181,7 +181,7 @@ class Gent_Rifle_B_Rank: Gent_Soldier {
   scopeCurator = 2;
   editorSubcategory = "GentInfantry_B_Rank";
   role = "Gent Rifle (B Rank)";
-  displayName = "Gent Rifle (B Rank)";
+  displayName = "<B Rank> Gent Rifle";
   backpack = "Gent_Rifle_B_Pack";
   weapons[] = {
     "Gent_AK12_Aco",
@@ -236,7 +236,7 @@ class Gent_Mule_B_Rank: Gent_Soldier {
   scopeCurator = 2;
   editorSubcategory = "GentInfantry_B_Rank"; // editor list category (cfgcategories)
   role = "Gent Mule (B Rank)"; //role displayed in MP as a join slot
-  displayName = "Gent Mule (B Rank)";
+  displayName = "<B Rank> Gent Mule";
   //equipment
   backpack = "Gent_Mule_B_Pack";
   weapons[] = {
@@ -290,7 +290,7 @@ class Gent_Boom_B_Rank: Gent_Soldier {
   scopeCurator = 2;
   editorSubcategory = "GentInfantry_B_Rank";
   role = "Gent Explosions! (B Rank)";
-  displayName = "Gent Explosions! (B Rank)";
+  displayName = "<B Rank> Gent Explosions!";
   //equipment
   backpack = "Gent_Boom_B_Pack";
   weapons[] = {
