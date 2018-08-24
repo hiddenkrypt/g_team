@@ -73,7 +73,6 @@ class CfgPatches
 #include "src\CfgVehicles.hpp"
 #include "src\CfgCategories.hpp"
 #include "src\CfgSounds.hpp"
-#include "src\CfgFunctions.hpp"
 #include "src\CfgGroups.hpp"
 #include "src\CfgFactionClasses.hpp"
 #include "src\CfgUnitInsignia.hpp"

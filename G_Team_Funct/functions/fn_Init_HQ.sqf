@@ -11,6 +11,7 @@
 	Returns:
 	BOOLEAN - true
 */
+//#define displayTex(name,path) if(! isNil "name") then { name setObjectTextureGlobal [0,path] };
 switch(_this select 0) do {
   default {
     //signs

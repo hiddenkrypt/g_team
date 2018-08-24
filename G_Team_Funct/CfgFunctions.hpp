@@ -17,7 +17,7 @@ class CfgFunctions
 		class MissionInits
 		{
       tag = "Gent"
-			file = "G_Team\src\functions";
+			file = "G_Team_Funct\functions";
 			class Init_HQ {};
 		};
 	};

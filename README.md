@@ -1,6 +1,6 @@
 # The Gentlemen's Gaming Group Presents: **The horrid misadventures of the G-Team**
 
-Now wanted by the United States military for a crime they absolutely did commit, they survive underground as soldiers of misfortune. If you have a problem. If you need something done. If nobody else is willing to help, and if you have the money... hire somebody else. But if you can't afford anybody better, then maybe you can hire... the G-Team.
+Wanted by the military for crimes they absolutely did commit, they survive underground as soldiers of misfortune. If you have a problem. If you need something done. If nobody else is willing to help, and if you have the money... hire somebody else. But if you can't afford anybody better, then maybe you can hire... the G-Team.
 
 We're not the bottom of the barrel. We know those guys, and we're jealous. I mean, they get to have a barrel.
 
@@ -17,7 +17,9 @@ First option: Clone the repo with git- `git clone https://github.com/hiddenkrypt
 Second Option: Click the "Clone or Download" Button in the github repo, select to download .zip
 
 ###compile PBO
-Using the Arma 3 tools provided by Bohemia Interactive (free on steam if you have ARMA 3 there) to open BI's Addon Builder. Use the addon builder to create a pbo out of the G_Team folder in the code.
+Using the Arma 3 tools provided by Bohemia Interactive (free on steam if you have ARMA 3 there) to open BI's Addon Builder. Use the addon builder to create a pbo out of the G_Team folder in the code. Or use Mikero's PBO tools if you like.
+
+You'll need to make both G_Team and G_Team_Funct folders into PBOs. If you're using BI's addon builder, **DO NOT BINARIZE THE FUNCT FOLDER**. 
 
 ###Arrange the Mod files four arma to mount
 In your ARMA 3 installation folder, find the "addons" directory and make a new folder in there named "@G_Team": `Arma 3\Addons\@G_Team`. In that folder, put the Mod.cpp file from the code, and make a new folder named "Addons". Inside that folder, put the PBO file you generated with the Addon Builder.
