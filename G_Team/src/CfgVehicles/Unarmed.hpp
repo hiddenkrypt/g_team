@@ -24,12 +24,14 @@ class Gent_Soldier: I_G_Soldier_F {
   linkedItems[] = {
     "ItemWatch",
     "ItemRadio",
+    "ItemMap",
     "G_WirelessEarpiece_F",
     "H_Hat_Camo"
   };
   respawnLinkedItems[] = {
     "ItemWatch",
     "ItemRadio",
+    "ItemMap",
     "G_WirelessEarpiece_F",
     "H_Hat_Camo"
   };
