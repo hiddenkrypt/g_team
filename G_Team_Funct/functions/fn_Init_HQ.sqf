@@ -11,10 +11,9 @@
 	Returns:
 	BOOLEAN - true
 */
-//#define displayTex(name,path) if(! isNil "name") then { name setObjectTextureGlobal [0,path] };
 switch(_this select 0) do {
   default {
-    //signs
+
     if(! isNil "logo") then { logo setObjectTextureGlobal [0,"G_Team\img\GGG_Logo_CA.paa"] };
     if(! isNil "doorSign_Cyberwar") then { doorSign_Cyberwar setObjectTextureGlobal [0, "G_Team\img\signs\doorSign_Cyberwarfare_CA.paa"]; };
     if(! isNil "doorSign_Storage") then { doorSign_Storage setObjectTextureGlobal [0, "G_Team\img\signs\doorSign_Storage_CA.paa"]; };
