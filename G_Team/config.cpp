@@ -72,7 +72,6 @@ class CfgPatches
 #include "src\CfgWeapons.hpp"
 #include "src\CfgVehicles.hpp"
 #include "src\CfgCategories.hpp"
-#include "src\CfgSounds.hpp"
 #include "src\CfgGroups.hpp"
 #include "src\CfgFactionClasses.hpp"
 #include "src\CfgUnitInsignia.hpp"
