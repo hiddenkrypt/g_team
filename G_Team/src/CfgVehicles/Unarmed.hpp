@@ -5,8 +5,8 @@ class Gent_Soldier: I_G_Soldier_F {
   GENT_UNIT
   scopeCurator = 0;
   woman = 1; //does nothing :<
-  role = "Gent"; //role displayed in MP as a join slot
   displayName = "Gent Soldier";
+  role = "";
   editorSubcategory = "GentUnarmed"; // editor list category (cfgcategories)
   identityTypes[] = { //default random head for AI
     "Head_NATO",
@@ -52,10 +52,9 @@ class Gent_Soldier: I_G_Soldier_F {
 };
 
 /*Gent Officer inherets from base Gent soldier
-They get a different name/role, and get a boonie hat*/
+They get a different name, and get a boonie hat*/
 class Gent_Officer: Gent_Soldier {
   displayName = "Gent Officer";
-  role = "Gent Officer (tylah)";
   editorPreview = "\G_Team\img\ui\editor_icons\icon_gent_officer_CO.paa"
   linkedItems[] = {
     "G_WirelessEarpiece_F",
@@ -75,10 +74,9 @@ class Gent_Officer: Gent_Soldier {
   };
 };
 /*Gent Commander inherets from base Gent soldier
-They get a different name/role, and get aviators / beret*/
+They get a different name, and get aviators / beret*/
 class Gent_Commander: Gent_Soldier {
   displayName = "Gent Command";
-  role = "Gent Command (Rav-T)";
   editorPreview = "\G_Team\img\ui\editor_icons\icon_gent_command_CO.paa"
   linkedItems[] = {
     "H_beret_blk",

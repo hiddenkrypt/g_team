@@ -3,7 +3,6 @@
 class Gent_AWP_C_Rank: Gent_Soldier {
   scopeCurator = 2;
   editorSubcategory = "GentInfantry_C_Rank"; // editor list category (cfgcategories)
-  role = "Gent AWP whore (C Rank)"; //role displayed in MP as a join slot
   displayName = "<C Rank> Gent AWP whore";
   //equipment
   backpack = "Gent_AWP_C_Pack";
@@ -61,7 +60,6 @@ class Gent_AWP_C_Rank: Gent_Soldier {
 class Gent_HUGE_C_Rank: Gent_Soldier {
   scopeCurator = 2;
   editorSubcategory = "GentInfantry_C_Rank"; // editor list category (cfgcategories)
-  role = "Gent H.U.G.E. Gunner (C Rank)"; //role displayed in MP as a join slot
   displayName = "<C Rank> Gent H.U.G.E.";
   //equipment
   backpack = "Gent_HUGE_C_Pack";
@@ -119,7 +117,6 @@ class Gent_HUGE_C_Rank: Gent_Soldier {
 class Gent_Medic_C_Rank: Gent_Soldier {
   scopeCurator = 2;
   editorSubcategory = "GentInfantry_C_Rank";
-  role = "Gent Medic (C Rank)";
   displayName = "<C Rank> Gent Medic";
   attendant = 1;
   //equipment
@@ -174,7 +171,6 @@ class Gent_Medic_C_Rank: Gent_Soldier {
 class Gent_Rifle_C_Rank: Gent_Soldier {
   scopeCurator = 2;
   editorSubcategory = "GentInfantry_C_Rank";
-  role = "Gent Rifle (C Rank)";
   displayName = "<C Rank> Gent Rifle";
   backpack = "Gent_Rifle_C_Pack";
   weapons[] = {
@@ -229,7 +225,6 @@ class Gent_Rifle_C_Rank: Gent_Soldier {
 class Gent_Mule_C_Rank: Gent_Soldier {
   scopeCurator = 2;
   editorSubcategory = "GentInfantry_C_Rank"; // editor list category (cfgcategories)
-  role = "Gent Mule (C Rank)"; //role displayed in MP as a join slot
   displayName = "<C Rank> Gent Mule";
   //equipment
   backpack = "Gent_Mule_C_Pack";
@@ -283,7 +278,6 @@ class Gent_Mule_C_Rank: Gent_Soldier {
 class Gent_Boom_C_Rank: Gent_Soldier {
   scopeCurator = 2;
   editorSubcategory = "GentInfantry_C_Rank";
-  role = "Gent Explosions! (C Rank)";
   displayName = "<C Rank> Gent Explosions!";
   //equipment
   backpack = "Gent_Boom_C_Pack";

@@ -3,10 +3,7 @@
 class Gent_AWP_A_Rank: Gent_Soldier {
   scopeCurator = 2;
   editorSubcategory = "GentInfantry_A_Rank"; // editor list category (cfgcategories)
-  role = "Gent AWP whore (A Rank)"; //role displayed in MP as a join slot
   displayName = "<A Rank> Gent AWP whore";
-  //model = "\A3\Characters_F_Bootcamp\Guerrilla\ig_guerrilla_6_1.p3d";
-  uniformClass = "U_B_T_FullGhillie_tna_F";
   //equipment
   backpack = "Gent_AWP_A_Pack";
   weapons[] = {
@@ -63,7 +60,6 @@ class Gent_AWP_A_Rank: Gent_Soldier {
 class Gent_HUGE_A_Rank: Gent_Soldier {
   scopeCurator = 2;
   editorSubcategory = "GentInfantry_A_Rank"; // editor list category (cfgcategories)
-  role = "Gent H.U.G.E. Gunner (A Rank)"; //role displayed in MP as a join slot
   displayName = "<A Rank> Gent H.U.G.E.";
   //equipment
   backpack = "Gent_HUGE_A_Pack";
@@ -123,7 +119,6 @@ class Gent_HUGE_A_Rank: Gent_Soldier {
 class Gent_Medic_A_Rank: Gent_Soldier {
   scopeCurator = 2;
   editorSubcategory = "GentInfantry_A_Rank";
-  role = "Gent Medic (A Rank)";
   displayName = "<A Rank> Gent Medic";
   attendant = 1;
   //equipment
@@ -184,7 +179,6 @@ class Gent_Medic_A_Rank: Gent_Soldier {
 class Gent_Rifle_A_Rank: Gent_Soldier {
   scopeCurator = 2;
   editorSubcategory = "GentInfantry_A_Rank";
-  role = "Gent Rifle (A Rank)";
   displayName = "<A Rank> Gent Rifle";
   backpack = "Gent_Rifle_A_Pack";
   weapons[] = {
@@ -239,7 +233,6 @@ class Gent_Rifle_A_Rank: Gent_Soldier {
 class Gent_Mule_A_Rank: Gent_Soldier {
   scopeCurator = 2;
   editorSubcategory = "GentInfantry_A_Rank"; // editor list category (cfgcategories)
-  role = "Gent Mule (A Rank)"; //role displayed in MP as a join slot
   displayName = "<A Rank> Gent Mule";
   //equipment
   backpack = "Gent_Mule_A_Pack";
@@ -293,7 +286,6 @@ class Gent_Mule_A_Rank: Gent_Soldier {
 class Gent_Boom_A_Rank: Gent_Soldier {
   scopeCurator = 2;
   editorSubcategory = "GentInfantry_A_Rank";
-  role = "Gent Explosions! (A Rank)";
   displayName = "<A Rank> Gent Explosions!";
   //equipment
   backpack = "Gent_Boom_A_Pack";
