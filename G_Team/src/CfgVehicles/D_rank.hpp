@@ -1,7 +1,8 @@
 #include "D_Rank_Packs.hpp"
 
-class Gent_AWP_D_Rank: Gent_Soldier {
+class Gent_AWP_D_Rank: Gent_RoleRestricted {
   scopeCurator = 2;
+  scope = 2;
   editorSubcategory = "GentInfantry_D_Rank"; // editor list category (cfgcategories)
   displayName = "<D Rank> Gent AWP whore";
   //equipment
@@ -55,8 +56,9 @@ class Gent_AWP_D_Rank: Gent_Soldier {
     "H_Hat_Camo"
   };
 };
-class Gent_HUGE_D_Rank: Gent_Soldier {
+class Gent_HUGE_D_Rank: Gent_RoleRestricted {
   scopeCurator = 2;
+  scope = 2;
   editorSubcategory = "GentInfantry_D_Rank"; // editor list category (cfgcategories)
   displayName = "<D Rank> Gent H.U.G.E.";
   //equipment
@@ -110,8 +112,9 @@ class Gent_HUGE_D_Rank: Gent_Soldier {
     "H_Hat_Camo"
   };
 };
-class Gent_Medic_D_Rank: Gent_Soldier {
+class Gent_Medic_D_Rank: Gent_RoleRestricted {
   scopeCurator = 2;
+  scope = 2;
   editorSubcategory = "GentInfantry_D_Rank"; // editor list category (cfgcategories)
   displayName = "<D Rank> Gent Medic";
   attendant = 1;
@@ -162,8 +165,9 @@ class Gent_Medic_D_Rank: Gent_Soldier {
     "H_Hat_Camo"
   };
 };
-class Gent_Rifle_D_Rank: Gent_Soldier {
+class Gent_Rifle_D_Rank: Gent_RoleRestricted {
   scopeCurator = 2;
+  scope = 2;
   editorSubcategory = "GentInfantry_D_Rank";
   displayName = "<D Rank> Gent Rifle";
   backpack = "Gent_Rifle_D_Pack";
@@ -214,8 +218,9 @@ class Gent_Rifle_D_Rank: Gent_Soldier {
     "H_Hat_Camo"
   };
 };
-class Gent_Mule_D_Rank: Gent_Soldier {
+class Gent_Mule_D_Rank: Gent_RoleRestricted {
   scopeCurator = 2;
+  scope = 2;
   editorSubcategory = "GentInfantry_D_Rank"; // editor list category (cfgcategories)
   displayName = "<D Rank> Gent Mule";
   //equipment
@@ -265,8 +270,10 @@ class Gent_Mule_D_Rank: Gent_Soldier {
     "H_Hat_Camo"
   };
 };
-class Gent_Boom_D_Rank: Gent_Soldier {
+class Gent_Boom_D_Rank: Gent_RoleRestricted {
+	canDeactivateMines=1;
   scopeCurator = 2;
+  scope = 2;
   editorSubcategory = "GentInfantry_D_Rank";
   role = "Gent Explosions! (D Rank)";
   displayName = "<D Rank> Gent Explosions!";

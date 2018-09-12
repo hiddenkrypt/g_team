@@ -4,6 +4,10 @@
 class Gent_Soldier: I_G_Soldier_F {
   GENT_UNIT
   scopeCurator = 0;
+  scope = 2;
+  attendant = 1;
+  engineer = 1;
+	canDeactivateMines = 1;
   woman = 1; //does nothing :<
   displayName = "Gent Soldier";
   role = "";
@@ -45,7 +49,7 @@ class Gent_Soldier: I_G_Soldier_F {
   hiddenSelectionsTextures[] = {"\G_Team\img\model_textures\gent_uniform_CO.paa"};
   //uniformClass = "U_IG_Guerrilla_6_1";
 
-  //prevent randomization of hat/facewear, get GGG logo patch
+  //prevent randomization of hat/facewear
   class EventHandlers {
     init = "(_this select 0) setVariable ['BIS_enableRandomization', false];"
   }
@@ -94,4 +98,11 @@ class Gent_Commander: Gent_Soldier {
     "ItemWatch",
     "ItemRadio"
   };
+};
+
+class Gent_RoleRestricted : Gent_Soldier { //used by ranked classes
+  scope = 0;
+  attendant = 0;
+  engineer = 1;
+  canDeactivateMines = 0;
 };

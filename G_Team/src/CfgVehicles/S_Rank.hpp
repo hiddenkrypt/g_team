@@ -1,7 +1,8 @@
 #include "S_Rank_Packs.hpp"
 
-class Gent_AWP_S_Rank: Gent_Soldier {
+class Gent_AWP_S_Rank: Gent_RoleRestricted {
   scopeCurator = 2;
+  scope = 2;
   editorSubcategory = "GentInfantry_S_Rank"; // editor list category (cfgcategories)
   displayName = "<S Rank> Gent AWP whore ";
   //equipment
@@ -57,8 +58,9 @@ class Gent_AWP_S_Rank: Gent_Soldier {
 };
 
 
-class Gent_HUGE_S_Rank: Gent_Soldier {
+class Gent_HUGE_S_Rank: Gent_RoleRestricted {
   scopeCurator = 2;
+  scope = 2;
   editorSubcategory = "GentInfantry_S_Rank"; // editor list category (cfgcategories)
   displayName = "<S Rank> Gent H.U.G.E. ";
   //equipment
@@ -116,8 +118,9 @@ class Gent_HUGE_S_Rank: Gent_Soldier {
 };
 
 
-class Gent_Medic_S_Rank: Gent_Soldier {
+class Gent_Medic_S_Rank: Gent_RoleRestricted {
   scopeCurator = 2;
+  scope = 2;
   editorSubcategory = "GentInfantry_S_Rank";
   displayName = "<S Rank> Gent Medic ";
   attendant = 1;
@@ -178,8 +181,9 @@ class Gent_Medic_S_Rank: Gent_Soldier {
 };
 
 
-class Gent_Rifle_S_Rank: Gent_Soldier {
+class Gent_Rifle_S_Rank: Gent_RoleRestricted {
   scopeCurator = 2;
+  scope = 2;
   editorSubcategory = "GentInfantry_S_Rank";
   displayName = "<S Rank> Gent Rifle ";
   backpack = "Gent_Rifle_S_Pack";
@@ -232,8 +236,9 @@ class Gent_Rifle_S_Rank: Gent_Soldier {
 };
 
 
-class Gent_Mule_S_Rank: Gent_Soldier {
+class Gent_Mule_S_Rank: Gent_RoleRestricted {
   scopeCurator = 2;
+  scope = 2;
   editorSubcategory = "GentInfantry_S_Rank"; // editor list category (cfgcategories)
   displayName = "<S Rank> Gent Mule ";
   //equipment
@@ -285,8 +290,10 @@ class Gent_Mule_S_Rank: Gent_Soldier {
 };
 
 
-class Gent_Boom_S_Rank: Gent_Soldier {
+class Gent_Boom_S_Rank: Gent_RoleRestricted {
   scopeCurator = 2;
+  scope = 2;
+	canDeactivateMines=1;
   editorSubcategory = "GentInfantry_S_Rank";
   displayName = "<S Rank> Gent Explosions! ";
   //equipment
