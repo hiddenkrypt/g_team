@@ -5,6 +5,9 @@ class Gent_Command_Car: CUP_O_UAZ_Open_CHDKZ {
   GENT_VEHICLE
   displayName = "Gent Command Car";
   editorPreview = "\G_Team\img\ui\editor_icons\icon_gent_commandcar_CO.paa"
+  class EventHandlers {
+    init = "[_this] call Gent_fnc_Infest_Car";
+  };
 };
 
 //just a 2xPKM vodnik with a different editor name. reskins are planned.
