@@ -31,10 +31,10 @@
       };
     };
     if (speed _car == 0 && isNull _bugs) then {
-      _bugs = group _car createUnit ['ModuleAnimals_F', getPosATL _car,[], 0, 'CARGO'];
+      _bugGroup = createGroup independent;
+      _bugs = _bugGroup createUnit ['ModuleAnimals_F', getPosATL _car,[], 0, 'CARGO'];
       _bugs setVariable ['count', 15];
       _bugs setVariable ['type', 'ButterFly_random'];
-      [_bugs] join grpNull;
       _bugs setPosASL position _car;
     ;}
   ;}
