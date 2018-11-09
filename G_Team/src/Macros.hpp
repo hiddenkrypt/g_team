@@ -26,7 +26,7 @@ otheris in ZEUS, they reference classes in CfgCategories.hpp */
   class TransportWeapons {};\
   class transportBackpacks {};\
   class TransportItems {};\
-  crew = "Gent_Soldier";\
+  crew = "Gent_Rifle_D_Rank";\
   crewCrashProtection = 0.01;\
   editorSubcategory = "GentVehicles";\
   vehicleClass = "GentVehicles"
