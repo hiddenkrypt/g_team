@@ -16,7 +16,7 @@
 	spawned execution unit
 */
 [_this select 0] spawn {
-  _car = _this select 0;
+  _car = (_this select 0) select 0;
   _bugs = objNull;
   _running = true;
   while { _running } do {

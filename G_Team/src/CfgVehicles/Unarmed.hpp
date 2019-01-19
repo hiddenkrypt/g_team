@@ -18,6 +18,7 @@ class Gent_Soldier: I_G_Soldier_F {
   };
   genericNames = "NATOMen"; // random name for ai
 
+
   editorPreview = "\G_Team\img\ui\editor_icons\icon_gent_soldier_CO.paa"
   //equipment
   backpack = "";
@@ -51,7 +52,7 @@ class Gent_Soldier: I_G_Soldier_F {
 
   //prevent randomization of hat/facewear
   class EventHandlers {
-    init = "(_this select 0) setVariable ['BIS_enableRandomization', false];"
+    init = "_gent = (_this select 0); _gent setVariable ['BIS_enableRandomization', false]; _gent addMPEventHandler [""MPKilled"", {(_this select 0) call Gent_fnc_Death_Yell;}];"
   }
 };
 
