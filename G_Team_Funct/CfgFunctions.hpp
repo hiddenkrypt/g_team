@@ -19,6 +19,7 @@ class CfgFunctions
       file = "G_Team_Funct\functions";
       class Init_HQ {};
       class Infest_Car {};
+      class Death_Yell {};
     };
   };
 };
