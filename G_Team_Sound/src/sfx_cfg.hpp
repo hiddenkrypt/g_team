@@ -23,3 +23,8 @@ class G_Team_goodLuck{
   sound[] = {"G_Team_Sound\sfx\goodLuck.ogg", 10, 1, 400};
   titles[] = {0, "Good Luck!"};
 };
+class G_Team_smokeTwoJoints{
+  name = "G_Team_smokeTwoJoints";
+  sound[] = {"G_Team_Sound\sfx\smokeTwoJoints.ogg", 10, 1, 200};
+  titles[] = {0, "Sublime - Smoke Two Joints"};
+};
