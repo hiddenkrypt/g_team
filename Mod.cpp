@@ -3,11 +3,11 @@ name = "G-Team Addon";
 /// Picture displayed from the expansions menu/ Optimal size is 2048x1024, other sizes work too
 picture = "G_Team\img\picture.paa";
 /// Display next to the item added by the mod
-logoSmall = "G_Team\img\logoSmall.paa";
+logoSmall = "G_Team\img\ui\logoSmall_CA.paa";
 /// Logo displayed in the main menu
-logo = "G_Team\img\logo.paa";
+logo = "G_Team\img\ui\logo_CA.paa";
 /// When the mouse is over, in the main menu
-logoOver = "G_Team\img\logoOver.paa";
+logoOver = "G_Team\img\ui\logoOver_CA.paa";
 /// Website URL, that can accessed from the expansions menu
 action = "http://bastly.ddns.net/w/index.php/The_G-Team";
 /// Tool tip displayed when the mouse is left over, in the main menu
