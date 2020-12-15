@@ -3,7 +3,7 @@ class CfgPatches
   class GGG_Team_Mod
   {
     name = "G-Team Addon";
-    author = "Rav-T";
+    author = "Ada";
     units[] = {
       "Gent_Chopper_Rust",
       "Gent_Command_Car",
