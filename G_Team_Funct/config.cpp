@@ -3,7 +3,7 @@ class CfgPatches
   class GGG_Team_FN_Mod
   {
     name = "G-Team Addon";
-    author = "Rav-T";
+    author = "Ada";
     units[] = {};
     weapons[] = {};
     requiredVersion = 0.1;
