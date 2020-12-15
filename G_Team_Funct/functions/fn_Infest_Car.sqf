@@ -16,26 +16,26 @@
 	spawned execution unit
 */
 [_this select 0] spawn {
-  _car = (_this select 0) select 0;
-  _bugs = objNull;
-  _running = true;
-  while { _running } do {
-    sleep ((random 3) + 1);
-    if(!isNull _bugs) then {
-      if(_bugs distance _car > 30) then {
-        deleteVehicle _bugs;
-      };
-      if(!alive _car) then {
-        deleteVehicle _bugs;
-        _running = false;
-      };
-    };
-    if (speed _car == 0 && isNull _bugs) then {
-      _bugGroup = createGroup independent;
-      _bugs = _bugGroup createUnit ['ModuleAnimals_F', getPosATL _car,[], 0, 'CARGO'];
-      _bugs setVariable ['count', 15];
-      _bugs setVariable ['type', 'ButterFly_random'];
-      _bugs setPosASL position _car;
-    ;}
-  ;}
+	_car = ( _this select 0 ) select 0;
+	_bugs = objNull;
+	_running = true;
+	while { _running } do {
+		sleep ( ( random 3 ) + 1 );
+		if( !isNull _bugs ) then {
+			if(_bugs distance _car > 30) then {
+				deleteVehicle _bugs;
+			};
+			if( !alive _car ) then {
+				deleteVehicle _bugs;
+				_running = false;
+			};
+		};
+		if ( speed _car == 0 && isNull _bugs ) then {
+			_bugGroup = createGroup independent;
+			_bugs = _bugGroup createUnit ['ModuleAnimals_F', getPosATL _car,[], 0, 'CARGO'];
+			_bugs setVariable ['count', 15];
+			_bugs setVariable ['type', 'ButterFly_random'];
+			_bugs setPosASL position _car;
+		;}
+	;}
 };
