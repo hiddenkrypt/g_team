@@ -20,6 +20,12 @@ class CfgFunctions
       class Init_HQ {};
       class Infest_Car {};
       class Death_Yell {};
+	  class Infantry_Setup {};
+	  class Loadout_Computer_Setup {};
+	  class Set_Deathyell_Option {};
+	  class Set_Equipment_Rank {};
+	  class Set_Player_Role {};
+	  class Set_Player_Class {};
     };
   };
 };

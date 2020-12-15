@@ -14,3 +14,6 @@ class CfgPatches
 };
 
 #include "CfgFunctions.hpp"
+#include "CfgCategories.hpp"
+#include "CfgVehicles.hpp"
+#include "dialogs.hpp"
