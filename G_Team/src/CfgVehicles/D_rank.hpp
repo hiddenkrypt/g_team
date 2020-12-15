@@ -4,7 +4,7 @@ class Gent_AWP_D_Rank: Gent_RoleRestricted {
   scopeCurator = 2;
   scope = 2;
   editorSubcategory = "GentInfantry_D_Rank"; // editor list category (cfgcategories)
-  displayName = "<D Rank> Gent AWP whore";
+  displayName = "GGG Sniper";
   //equipment
   backpack = "Gent_AWP_D_Pack";
   weapons[] = {
@@ -59,8 +59,9 @@ class Gent_AWP_D_Rank: Gent_RoleRestricted {
 class Gent_HUGE_D_Rank: Gent_RoleRestricted {
   scopeCurator = 2;
   scope = 2;
+  icon = "iconManMG";
   editorSubcategory = "GentInfantry_D_Rank"; // editor list category (cfgcategories)
-  displayName = "<D Rank> Gent H.U.G.E.";
+  displayName = "GGG H.U.G.E.";
   //equipment
   backpack = "Gent_HUGE_D_Pack";
   weapons[] = {
@@ -115,9 +116,10 @@ class Gent_HUGE_D_Rank: Gent_RoleRestricted {
 class Gent_Medic_D_Rank: Gent_RoleRestricted {
   scopeCurator = 2;
   scope = 2;
-  editorSubcategory = "GentInfantry_D_Rank"; // editor list category (cfgcategories)
-  displayName = "<D Rank> Gent Medic";
   attendant = 1;
+  icon = "iconManMedic";
+  editorSubcategory = "GentInfantry_D_Rank"; // editor list category (cfgcategories)
+  displayName = "GGG Medic";
   //equipment
   backpack = "Gent_Medic_D_Pack";
   weapons[] = {
@@ -169,7 +171,7 @@ class Gent_Rifle_D_Rank: Gent_RoleRestricted {
   scopeCurator = 2;
   scope = 2;
   editorSubcategory = "GentInfantry_D_Rank";
-  displayName = "<D Rank> Gent Rifle";
+  displayName = "GGG Rifle";
   backpack = "Gent_Rifle_D_Pack";
   weapons[] = {
     "CUP_arifle_L85A2",
@@ -221,8 +223,10 @@ class Gent_Rifle_D_Rank: Gent_RoleRestricted {
 class Gent_Mule_D_Rank: Gent_RoleRestricted {
   scopeCurator = 2;
   scope = 2;
+  engineer = 1;
+  icon = "iconManEngineer";
   editorSubcategory = "GentInfantry_D_Rank"; // editor list category (cfgcategories)
-  displayName = "<D Rank> Gent Mule";
+  displayName = "GGG M.U.L.E";
   //equipment
   backpack = "Gent_Mule_D_Pack";
   weapons[] = {
@@ -272,57 +276,58 @@ class Gent_Mule_D_Rank: Gent_RoleRestricted {
 };
 class Gent_Boom_D_Rank: Gent_RoleRestricted {
 	canDeactivateMines=1;
-  scopeCurator = 2;
-  scope = 2;
-  editorSubcategory = "GentInfantry_D_Rank";
-  role = "Gent Explosions! (D Rank)";
-  displayName = "<D Rank> Gent Explosions!";
-  //equipment
-  backpack = "Gent_Boom_D_Pack";
-  weapons[] = {
-    "CUP_arifle_L85A2",
-    "CUP_hgun_Glock17",
-    "Throw",
-    "Put"
-  };
-  respawnWeapons[] = {
-    "CUP_arifle_L85A2",
-    "CUP_hgun_Glock17",
-    "Throw",
-    "Put"
-  };
-  magazines[] = {
-    mag_3("CUP_17Rnd_9x19_glock17"),
-    mag_5("30Rnd_556x45_Stanag_red"),
-    mag_1("HandGrenade")
-  };
-  respawnMagazines[] = {
-    mag_3("CUP_17Rnd_9x19_glock17"),
-    mag_5("30Rnd_556x45_Stanag_red"),
-    mag_1("HandGrenade")
-  };
-  items[] = {
-    "FirstAidKit",
-    "FirstAidKit"
-  };
-  respawnItems[] = {
-  };
-  linkedItems[] = {
-    "V_TacVest_oli",
-    "ItemWatch",
-    "ItemRadio",
-    "ItemMap",
-    "ItemCompass",
-    "G_WirelessEarpiece_F",
-    "H_Hat_Camo"
-  };
-  respawnLinkedItems[] = {
-    "V_TacVest_oli",
-    "ItemWatch",
-    "ItemRadio",
-    "ItemMap",
-    "ItemCompass",
-    "G_WirelessEarpiece_F",
-    "H_Hat_Camo"
-  };
+	scopeCurator = 2;
+	scope = 2;
+  icon = "iconManExplosive";
+	editorSubcategory = "GentInfantry_D_Rank";
+	role = "GGG Boom";
+	displayName = "GGG Boom";
+	//equipment
+	backpack = "Gent_Boom_D_Pack";
+	weapons[] = {
+		"CUP_arifle_L85A2",
+		"CUP_hgun_Glock17",
+		"Throw",
+		"Put"
+	};
+	respawnWeapons[] = {
+		"CUP_arifle_L85A2",
+		"CUP_hgun_Glock17",
+		"Throw",
+		"Put"
+	};
+	magazines[] = {
+		mag_3("CUP_17Rnd_9x19_glock17"),
+		mag_5("30Rnd_556x45_Stanag_red"),
+		mag_1("HandGrenade")
+	};
+	respawnMagazines[] = {
+		mag_3("CUP_17Rnd_9x19_glock17"),
+		mag_5("30Rnd_556x45_Stanag_red"),
+		mag_1("HandGrenade")
+	};
+	items[] = {
+		"FirstAidKit",
+		"FirstAidKit"
+	};
+	respawnItems[] = {
+	};
+	linkedItems[] = {
+	"V_TacVest_oli",
+	"ItemWatch",
+	"ItemRadio",
+	"ItemMap",
+	"ItemCompass",
+	"G_WirelessEarpiece_F",
+	"H_Hat_Camo"
+	};
+	respawnLinkedItems[] = {
+		"V_TacVest_oli",
+		"ItemWatch",
+		"ItemRadio",
+		"ItemMap",
+		"ItemCompass",
+		"G_WirelessEarpiece_F",
+		"H_Hat_Camo"
+	};
 };

@@ -1,11 +1,7 @@
 #include "S_Rank_Packs.hpp"
 
-class Gent_AWP_S_Rank: Gent_RoleRestricted {
-  scopeCurator = 2;
-  scope = 2;
+class Gent_AWP_S_Rank: Gent_AWP_D_Rank {
   editorSubcategory = "GentInfantry_S_Rank"; // editor list category (cfgcategories)
-  displayName = "<S Rank> Gent AWP whore ";
-  //equipment
   backpack = "Gent_AWP_S_Pack";
   weapons[] = {
     "Gent_LightFity_LRPS",
@@ -57,13 +53,8 @@ class Gent_AWP_S_Rank: Gent_RoleRestricted {
   };
 };
 
-
-class Gent_HUGE_S_Rank: Gent_RoleRestricted {
-  scopeCurator = 2;
-  scope = 2;
+class Gent_HUGE_S_Rank: Gent_HUGE_D_Rank {
   editorSubcategory = "GentInfantry_S_Rank"; // editor list category (cfgcategories)
-  displayName = "<S Rank> Gent H.U.G.E. ";
-  //equipment
   backpack = "Gent_HUGE_S_Pack";
   weapons[] = {
     "Gent_MMG_Works",
@@ -117,14 +108,9 @@ class Gent_HUGE_S_Rank: Gent_RoleRestricted {
   };
 };
 
-
-class Gent_Medic_S_Rank: Gent_RoleRestricted {
-  scopeCurator = 2;
-  scope = 2;
+class Gent_Medic_S_Rank: Gent_Medic_D_Rank {
   editorSubcategory = "GentInfantry_S_Rank";
-  displayName = "<S Rank> Gent Medic ";
-  attendant = 1;
-  //equipment
+  displayName = "GGG Medic ";
   backpack = "Gent_Medic_S_Pack";
   weapons[] = {
     "Gent_ScarK_Works",
@@ -180,12 +166,8 @@ class Gent_Medic_S_Rank: Gent_RoleRestricted {
   };
 };
 
-
-class Gent_Rifle_S_Rank: Gent_RoleRestricted {
-  scopeCurator = 2;
-  scope = 2;
+class Gent_Rifle_S_Rank: Gent_Rifle_D_Rank {
   editorSubcategory = "GentInfantry_S_Rank";
-  displayName = "<S Rank> Gent Rifle ";
   backpack = "Gent_Rifle_S_Pack";
   weapons[] = {
     "Gent_ScarL_Works",
@@ -235,13 +217,8 @@ class Gent_Rifle_S_Rank: Gent_RoleRestricted {
   };
 };
 
-
-class Gent_Mule_S_Rank: Gent_RoleRestricted {
-  scopeCurator = 2;
-  scope = 2;
+class Gent_Mule_S_Rank: Gent_Mule_D_Rank {
   editorSubcategory = "GentInfantry_S_Rank"; // editor list category (cfgcategories)
-  displayName = "<S Rank> Gent Mule ";
-  //equipment
   backpack = "Gent_Mule_S_Pack";
   weapons[] = {
     "Gent_ScarK_Works",
@@ -289,14 +266,8 @@ class Gent_Mule_S_Rank: Gent_RoleRestricted {
   };
 };
 
-
-class Gent_Boom_S_Rank: Gent_RoleRestricted {
-  scopeCurator = 2;
-  scope = 2;
-	canDeactivateMines=1;
+class Gent_Boom_S_Rank: Gent_Boom_D_Rank {
   editorSubcategory = "GentInfantry_S_Rank";
-  displayName = "<S Rank> Gent Explosions! ";
-  //equipment
   backpack = "Gent_Boom_S_Pack";
   weapons[] = {
     "Gent_ScarK_Works",

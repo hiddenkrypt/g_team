@@ -1,11 +1,7 @@
 #include "B_Rank_Packs.hpp"
 
-class Gent_AWP_B_Rank: Gent_RoleRestricted {
-  scopeCurator = 2;
-  scope = 2;
+class Gent_AWP_B_Rank: Gent_AWP_D_Rank {
   editorSubcategory = "GentInfantry_B_Rank"; // editor list category (cfgcategories)
-  displayName = "<B Rank> Gent AWP whore";
-  //equipment
   backpack = "Gent_AWP_B_Pack";
   weapons[] = {
     "Gent_LRR_DMS",
@@ -57,13 +53,8 @@ class Gent_AWP_B_Rank: Gent_RoleRestricted {
   };
 };
 
-
-class Gent_HUGE_B_Rank: Gent_RoleRestricted {
-  scopeCurator = 2;
-  scope = 2;
+class Gent_HUGE_B_Rank: Gent_HUGE_D_Rank {
   editorSubcategory = "GentInfantry_B_Rank"; // editor list category (cfgcategories)
-  displayName = "<B Rank> Gent H.U.G.E.";
-  //equipment
   backpack = "Gent_HUGE_B_Pack";
   weapons[] = {
     "CUP_arifle_RPK74",
@@ -115,14 +106,8 @@ class Gent_HUGE_B_Rank: Gent_RoleRestricted {
   };
 };
 
-
-class Gent_Medic_B_Rank: Gent_RoleRestricted {
-  scopeCurator = 2;
-  scope = 2;
+class Gent_Medic_B_Rank: Gent_Medic_D_Rank {
   editorSubcategory = "GentInfantry_B_Rank";
-  displayName = "<B Rank> Gent Medic";
-  attendant = 1;
-  //equipment
   backpack = "Gent_Medic_B_Pack";
   weapons[] = {
     "arifle_AK12_F",
@@ -176,12 +161,8 @@ class Gent_Medic_B_Rank: Gent_RoleRestricted {
   };
 };
 
-
-class Gent_Rifle_B_Rank: Gent_RoleRestricted {
-  scopeCurator = 2;
-  scope = 2;
+class Gent_Rifle_B_Rank: Gent_Rifle_D_Rank {
   editorSubcategory = "GentInfantry_B_Rank";
-  displayName = "<B Rank> Gent Rifle";
   backpack = "Gent_Rifle_B_Pack";
   weapons[] = {
     "Gent_AK12_Aco",
@@ -231,13 +212,8 @@ class Gent_Rifle_B_Rank: Gent_RoleRestricted {
   };
 };
 
-
-class Gent_Mule_B_Rank: Gent_RoleRestricted {
-  scopeCurator = 2;
-  scope = 2;
+class Gent_Mule_B_Rank: Gent_Mule_D_Rank {
   editorSubcategory = "GentInfantry_B_Rank"; // editor list category (cfgcategories)
-  displayName = "<B Rank> Gent Mule";
-  //equipment
   backpack = "Gent_Mule_B_Pack";
   weapons[] = {
     "arifle_AK12_F",
@@ -285,14 +261,8 @@ class Gent_Mule_B_Rank: Gent_RoleRestricted {
   };
 };
 
-
-class Gent_Boom_B_Rank: Gent_RoleRestricted {
-  scopeCurator = 2;
-  scope = 2;
-	canDeactivateMines=1;
+class Gent_Boom_B_Rank: Gent_Boom_D_Rank {
   editorSubcategory = "GentInfantry_B_Rank";
-  displayName = "<B Rank> Gent Explosions!";
-  //equipment
   backpack = "Gent_Boom_B_Pack";
   weapons[] = {
     "arifle_AK12_F",
